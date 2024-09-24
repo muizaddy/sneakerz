@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes Project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo"><h1>Sneakers</h1></div>
+        <ul class="lists">
+          <li class="list"><a href="#">Collections</a></li>
+          <li class="list"><a href="#">Men</a></li>
+          <li class="list"><a href="#">Women</a></li>
+          <li class="list"><a href="#">About</a></li>
+          <li class="list"><a href="#">Contact</a></li>
+        </ul>
+        <div class="cart--profile">
+          <div class="cart"><img src="./img/cart.svg" alt="cart" /></div>
+          <div class="profile">
+            <img src="./img/muiz2.jpg" alt="mypic" class="profile_pic" />
+          </div>
+          <img src="./img/bar.svg" alt="drop" class="bar">
+          <img src="./img/x-mark.svg" alt="drop" class="x-mark" >
+        </div>
+      </div>
+    </nav>
+    <main class="display">
+      <div class="flex_container">
+        <div class="flex_img">
+          <!-- The Big Image -->
+          <div class="render-img">
+            <img src="./img/img--9.jpg" alt="" class="render" />
+          </div>
+          <!-- The small divided ones -->
+          <div class="sm-img">
+            <img src="./img/img--11.jpg" alt="" class="sm" />
+            <img src="./img/img--12.jpg" alt="" class="sm" />
+            <img src="./img/img--10.jpg" alt="" class="sm" />
+            <img src="./img/img--13.jpg" alt="" class="sm" />
+          </div>
+        </div>
+        <div class="flex_content">
+          <!-- The small company name -->
+          <div class="name"><h4>SNEAKER COMPANY</h4></div>
+          <!-- The Edition -->
+          <div class="edition">
+            <h2>Fall Limited Edition Sneakers</h2>
+          </div>
+          <!-- The Text-->
+          <div class="para">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sale, they'll withstand evverything
+            the weather can offer.
+          </div>
+          <!-- The Price-->
+          <div class="price">
+            <div class="current">
+              <p class="main">$125.00</p>
+              <p class="disc">50%</p>
+            </div>
+            <div class="old">
+              <p class="del">$250.00</p>
+            </div>
+          </div>
+          <!-- The flex increase and decrease-->
+          <div class="cart_bottom">
+            <div class="cart_click">
+              <span class="minus">&minus;</span>
+              <span class="num">0</span>
+              <span class="plus">&plus;</span>
+            </div>
+            <!-- Adding to cart-->
+              <button class="btn">
+                <img src="./img/cart-white.svg" alt="cart" class="crt"/>
+                <p class="add">Add to Cart</p>
+              </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
